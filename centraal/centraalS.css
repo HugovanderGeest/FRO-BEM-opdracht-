@@ -8,7 +8,7 @@
 /* <!-- OPDRACHT BEM  bekijk deze pagina in iphone 11/X formaat-->
  */
 
-#nav__menu {
+.nav {
   display: grid;
   grid-template-areas:
     "logo info wie uitleg hmenu"
@@ -69,6 +69,10 @@
 .arow-right {
   grid-area: arow-right;
   float: left;
+}
+
+.fa-navicon {
+  font-size: 45px;
 }
 
 .Button__infoknop {
